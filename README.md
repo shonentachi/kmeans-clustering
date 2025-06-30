@@ -16,3 +16,17 @@ Mengelompokkan postingan menjadi beberapa klaster berdasarkan tingkat interaksin
 - Matplotlib
 - Seaborn
 - scikit-learn
+  
+## 📊 Hasil Clustering
+
+Dataset dikelompokkan menjadi 3 klaster berdasarkan jumlah:
+- Reaksi (`num_reactions`)
+- Komentar (`num_comments`)
+- Share (`num_shares`)
+
+### Karakteristik Klaster:
+- **Klaster 0**: Postingan viral (reaksi dan share tinggi)
+- **Klaster 1**: Postingan biasa (interaksi sedang)
+- **Klaster 2**: Postingan kurang interaksi
+
+Visualisasi hasil clustering ada di folder `images/hasil.png`.
